@@ -1,0 +1,21 @@
+{
+  "name": "request_demo",
+  "version": "1.0.0",
+  "description": "nodejs-express server examples",
+  "main": "expressDemo.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon expressDemo.js",
+    "debug": "DEBUG=express:* nodemon expressDemo.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^12.1.0",
+    "eslint-plugin-import": "^2.9.0"
+  }
+}
